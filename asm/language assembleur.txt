@@ -1,0 +1,23 @@
+
+le language assembleur est une representation lisible du language machine
+
+inventé en 1950, il est plus bas niveau que le c/c++/fortran
+il existe un language assembleur pour chaques types de processeurs ainsi que des registres différents
+selon son architecture 
+
+[termes]
+
+assembleur(ASL): outil qui permet la traduction du language assembleur
+assemblage: action language vers binaire
+
+
+[jeu d'instruction]
+    -manipulation en mémoire
+    -calculs/arithmétie
+    -comparaisons
+    -sauts/appels
+
+[pour quoi pour quoi]
+    -optimisation de programme
+    -architecture spécifiques
+    -hacking, analyse, retro_inge'
