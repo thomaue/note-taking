@@ -2,10 +2,18 @@ un makefile est un fichier qui permet de lire des regles qui vont generer
 des programmes en compilant seulement les parties modifiées.
 
 
-syntaxe :
+    [syntaxe :]
 
 <target> : <pre-requisites>
 	<recipe>
+
+    [ex:]
+
+hello: hello.c hellofun.c
+    gcc -o hello hello.c hellofun.c -i
+
+(compile hello.c && hellofun.c en hello)
+
 
 ----------------------------------------
 
@@ -31,12 +39,9 @@ spécial var :
  $* -> file name without his extension
 
 
+-----------------------------------------
 
-
-
-
-
-conditions :
+    [conditions :]
 
 ifndef
 
@@ -45,3 +50,11 @@ ifeq ($(var_name), <value>)
 
 else
 	<command>
+
+-----------------------------------------
+
+[spécial]
+
+.DEFAULT_GOAL = help -> permet l'execution d'une cible simplement avec un make
+
+## for comments 
