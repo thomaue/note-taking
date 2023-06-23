@@ -1,0 +1,17 @@
+char -> texte
+--------------
+
+
+
+
+signed char <name>[] = "<texte>";
+
+//
+
+signed char <name>[<size_texte> + 1] = "<texte>";       ## +1 for \0
+---------------------------------
+
+
+%s -> string
+%c -> char
+
