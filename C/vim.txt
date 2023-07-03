@@ -1,0 +1,4 @@
+start:
+    vim <file name>
+end:
+    "q"  -> ("w" save)
